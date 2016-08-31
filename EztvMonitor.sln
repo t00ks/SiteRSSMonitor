@@ -1,0 +1,105 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EztvMonitor.Service", "EztvMonitor.Service\EztvMonitor.Service.csproj", "{8C12566D-DC93-4F63-B42F-99A4F7B9AC88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EztvMonitor.Core", "EztvMonitor.Core\EztvMonitor.Core.csproj", "{F43DC25C-EA76-4CC7-B5F6-3C39B503CECE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EztvMonitor.Core.Tests", "EztvMonitor.Core.Tests\EztvMonitor.Core.Tests.csproj", "{BB4F8EFE-C997-40CF-A159-F055B9FD8912}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0519AA4B-B78D-4268-A9E0-A55EFE31C5BF}"
+	ProjectSection(SolutionItems) = preProject
+		EztvMonitor.vsmdi = EztvMonitor.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EztvMonitor.TestConsole", "EztvMonitor.TestConsole\EztvMonitor.TestConsole.csproj", "{75F37808-9FDC-436C-82EC-A0345E5DC172}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "EztvMonitor.Setup", "EztvMonitor.Setup\EztvMonitor.Setup.vdproj", "{F0E9F13C-6570-4C34-9683-5D495D529F0C}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://goodspeed:8080/tfs/tookscms
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = EztvMonitor.Service\\EztvMonitor.Service.csproj
+		SccProjectName1 = EztvMonitor.Service
+		SccLocalPath1 = EztvMonitor.Service
+		SccProjectUniqueName2 = EztvMonitor.Core\\EztvMonitor.Core.csproj
+		SccProjectName2 = EztvMonitor.Core
+		SccLocalPath2 = EztvMonitor.Core
+		SccProjectUniqueName3 = EztvMonitor.Core.Tests\\EztvMonitor.Core.Tests.csproj
+		SccProjectName3 = EztvMonitor.Core.Tests
+		SccLocalPath3 = EztvMonitor.Core.Tests
+		SccProjectUniqueName4 = EztvMonitor.TestConsole\\EztvMonitor.TestConsole.csproj
+		SccProjectName4 = EztvMonitor.TestConsole
+		SccLocalPath4 = EztvMonitor.TestConsole
+		SccProjectUniqueName5 = EztvMonitor.Setup\\EztvMonitor.Setup.vdproj
+		SccProjectName5 = EztvMonitor.Setup
+		SccLocalPath5 = EztvMonitor.Setup
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = EztvMonitor.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C12566D-DC93-4F63-B42F-99A4F7B9AC88}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{8C12566D-DC93-4F63-B42F-99A4F7B9AC88}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{8C12566D-DC93-4F63-B42F-99A4F7B9AC88}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{8C12566D-DC93-4F63-B42F-99A4F7B9AC88}.Debug|x86.ActiveCfg = Debug|x86
+		{8C12566D-DC93-4F63-B42F-99A4F7B9AC88}.Debug|x86.Build.0 = Debug|x86
+		{8C12566D-DC93-4F63-B42F-99A4F7B9AC88}.Release|Any CPU.ActiveCfg = Release|x86
+		{8C12566D-DC93-4F63-B42F-99A4F7B9AC88}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{8C12566D-DC93-4F63-B42F-99A4F7B9AC88}.Release|Mixed Platforms.Build.0 = Release|x86
+		{8C12566D-DC93-4F63-B42F-99A4F7B9AC88}.Release|x86.ActiveCfg = Release|x86
+		{8C12566D-DC93-4F63-B42F-99A4F7B9AC88}.Release|x86.Build.0 = Release|x86
+		{F43DC25C-EA76-4CC7-B5F6-3C39B503CECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F43DC25C-EA76-4CC7-B5F6-3C39B503CECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F43DC25C-EA76-4CC7-B5F6-3C39B503CECE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F43DC25C-EA76-4CC7-B5F6-3C39B503CECE}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F43DC25C-EA76-4CC7-B5F6-3C39B503CECE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F43DC25C-EA76-4CC7-B5F6-3C39B503CECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F43DC25C-EA76-4CC7-B5F6-3C39B503CECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F43DC25C-EA76-4CC7-B5F6-3C39B503CECE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F43DC25C-EA76-4CC7-B5F6-3C39B503CECE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F43DC25C-EA76-4CC7-B5F6-3C39B503CECE}.Release|x86.ActiveCfg = Release|Any CPU
+		{BB4F8EFE-C997-40CF-A159-F055B9FD8912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB4F8EFE-C997-40CF-A159-F055B9FD8912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB4F8EFE-C997-40CF-A159-F055B9FD8912}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{BB4F8EFE-C997-40CF-A159-F055B9FD8912}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{BB4F8EFE-C997-40CF-A159-F055B9FD8912}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BB4F8EFE-C997-40CF-A159-F055B9FD8912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB4F8EFE-C997-40CF-A159-F055B9FD8912}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB4F8EFE-C997-40CF-A159-F055B9FD8912}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{BB4F8EFE-C997-40CF-A159-F055B9FD8912}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{BB4F8EFE-C997-40CF-A159-F055B9FD8912}.Release|x86.ActiveCfg = Release|Any CPU
+		{75F37808-9FDC-436C-82EC-A0345E5DC172}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{75F37808-9FDC-436C-82EC-A0345E5DC172}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{75F37808-9FDC-436C-82EC-A0345E5DC172}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{75F37808-9FDC-436C-82EC-A0345E5DC172}.Debug|x86.ActiveCfg = Debug|x86
+		{75F37808-9FDC-436C-82EC-A0345E5DC172}.Debug|x86.Build.0 = Debug|x86
+		{75F37808-9FDC-436C-82EC-A0345E5DC172}.Release|Any CPU.ActiveCfg = Release|x86
+		{75F37808-9FDC-436C-82EC-A0345E5DC172}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{75F37808-9FDC-436C-82EC-A0345E5DC172}.Release|Mixed Platforms.Build.0 = Release|x86
+		{75F37808-9FDC-436C-82EC-A0345E5DC172}.Release|x86.ActiveCfg = Release|x86
+		{75F37808-9FDC-436C-82EC-A0345E5DC172}.Release|x86.Build.0 = Release|x86
+		{F0E9F13C-6570-4C34-9683-5D495D529F0C}.Debug|Any CPU.ActiveCfg = Debug
+		{F0E9F13C-6570-4C34-9683-5D495D529F0C}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{F0E9F13C-6570-4C34-9683-5D495D529F0C}.Debug|x86.ActiveCfg = Debug
+		{F0E9F13C-6570-4C34-9683-5D495D529F0C}.Release|Any CPU.ActiveCfg = Release
+		{F0E9F13C-6570-4C34-9683-5D495D529F0C}.Release|Mixed Platforms.ActiveCfg = Release
+		{F0E9F13C-6570-4C34-9683-5D495D529F0C}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
